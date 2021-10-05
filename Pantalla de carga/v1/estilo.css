@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+}
+.CARGA{
+	display:block;
+	width:100%;
+	height:1080px;
+	background-image:url(fondo1.png);
+	background-size:1920px;
+	background-repeat:no-repeat;
+}
+
+.marco{
+	position: absolute;
+	width:1607px;
+	height: 620px;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top:150px;
+	margin-left:150px;
+}
+
+.marcoCarga{
+	position: absolute;
+	width:1607px;
+	height: 620px;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top:150px;
+	margin-left:150px;
+}
+.cabeza{
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	margin-top:232px;
+	margin-left:834px;
+	background: url(cabez2a.gif);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+H1{
+
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	margin-top:600px;
+	margin-left:867px; 
+
+}
+.flecha1{
+	position: absolute;
+	width: 552px;
+	height: 49px;
+	background: url(flecha.png);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	margin-top:104px;
+	margin-left:1196px; 
+}
+.flecha2{
+	position: absolute;
+	width: 552px;
+	height: 49px;
+	background: url(flecha.png);	
+	margin-top:767px;
+	margin-left:143px; 
+	transform: matrix(1, 0,0, -1, 0, 0);
+}
